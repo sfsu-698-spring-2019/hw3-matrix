@@ -53,8 +53,8 @@ int main(void)
 
   // initialize x and y arrays on the host
   for (int i = 0; i < size; i++) {
-    A[i] = 1.0f;
-    B[i] = 2.0f;
+    A[i] = i * 0.000000001;
+    B[i] = i * 0.000000001;
     C[i] = 0.0f;
     verify[i] = 0.0f;
   }
